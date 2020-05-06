@@ -6,9 +6,9 @@ import Reactt, { useState } from "react";
 export default function Menu() {
   const [isLogged, setIsLogged] = useState(false);
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark" >
-      <a className="navbar-brand" href="#;">SELECTUM</a>
-     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-black" >
+      <a className="navbar-brand" href="../imagens/LogoTrue;">SELECTUM</a>
+     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
       </button>
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup" >
